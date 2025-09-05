@@ -1,5 +1,9 @@
 # 🧪 Linux Privilege Escalation Worksheet (Using linPEAS)
 
+## First Steps
+1. Please review the [student_privesc_template.md](https://github.com/anombyte93/student_privesc/blob/main/student_privesc_template.md) and follow the detailed instructions on how to fork the document so you can make changes to it!
+2. Follow the template, I would recommend making changes ONLINE but I have included instructions on how to change on your own PC or in Kali as well if you would prefer.
+
 ## 🎯 Objective
 
 Guide students through gaining an initial foothold via a file upload vulnerability, and then escalating privileges on a Linux system using `linPEAS`. The goal is to identify misconfigurations or vulnerabilities that could lead to root access.
@@ -378,5 +382,6 @@ export PATH=/tmp:$PATH
   - One step by step Privesc path and root confirmation
   - Step by step attempts at 1 Bonus or Mystery task
 - Submit a 1-paragraph reflection on the escalation path used and what you understand!
+
 
 
