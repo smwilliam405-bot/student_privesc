@@ -10,6 +10,82 @@ It mirrors how real penetration testers write reports, track steps, document evi
 
 ### 🔹 How to Fork & Use This Template
 
+# 💻 GitHub Desktop Walkthrough for Students
+
+If you’re more comfortable with a graphical interface than the command line, follow these instructions to complete your student pentest walkthrough using **GitHub Desktop**.
+
+---
+
+## 📦 Step-by-Step Instructions
+
+### 🔹 1. Install GitHub Desktop
+- Download from: [https://desktop.github.com](https://desktop.github.com)
+- Install and log in with your GitHub account
+
+---
+
+### 🔹 2. Fork the Instructor’s Repo
+1. Navigate to the instructor’s GitHub repo in your browser
+2. Click **Fork** in the top-right corner
+3. This creates a personal copy under your GitHub username
+
+---
+
+### 🔹 3. Clone Your Fork with GitHub Desktop
+1. Open GitHub Desktop
+2. Click **File > Clone Repository**
+3. Select the repo you just forked from the list
+4. Choose a local folder to store your files
+5. Click **Clone**
+
+---
+
+### 🔹 4. Create and Edit Your Walkthrough
+1. Open the folder GitHub Desktop cloned to
+2. Locate `Student_Privesc_Template.md`
+3. Copy it and rename it:
+
+```bash
+walkthrough-YOURNAME.md
+```
+
+4. Open the file with a text editor (e.g., VSCode, Notepad++, Sublime Text)
+5. Fill out each section as you complete the lab
+
+---
+
+### 🔹 5. Commit and Push Changes
+1. Return to GitHub Desktop
+2. You’ll see your edited file listed under **Changes**
+3. In the summary box, type a message like:
+
+```
+"Added my privesc lab walkthrough"
+```
+
+4. Click **Commit to main**
+5. Click **Push origin** to upload changes to your GitHub fork
+
+---
+
+### 🔹 6. Submit Your Work
+- Go to your GitHub profile and find your forked repo
+- Confirm your `walkthrough-YOURNAME.md` is visible
+- Copy the repo URL and submit it as your lab report
+
+---
+
+## 💡 Why This Is Important
+- ✅ GitHub is how professionals document, collaborate, and version-control projects
+- ✅ Submitting work this way shows you're job-ready
+- ✅ Your walkthrough becomes part of your personal cybersecurity portfolio
+
+---
+
+> 💬 If you're stuck at any step, ask your instructor or teaching assistant for help!
+
+# 💻 Alternatively you can fork using the command line
+
 1. **Go to your instructor’s GitHub repository** (e.g., `https://github.com/instructor/linux-privesc-lab`)
 
 2. In the top-right, click **Fork**. This creates your own copy of the project under your GitHub username.
