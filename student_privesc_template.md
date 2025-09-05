@@ -25,7 +25,7 @@ If you’re more comfortable with a graphical interface than the command line, f
 ---
 
 ### 🔹 2. Fork the Instructor’s Repo
-1. Navigate to the instructor’s GitHub repo in your browser
+1. Navigate to the [instructor’s GitHub repo](https://github.com/anombyte93/student_privesc) in your browser
 2. Click **Fork** in the top-right corner
 3. This creates a personal copy under your GitHub username
 
