@@ -8,9 +8,9 @@ It mirrors how real penetration testers write reports, track steps, document evi
 
 ---
 
-### 🔹 How to Fork & Use This Template
+## 🔹 How to Fork & Use This Template
 
-# 💻 GitHub Desktop Walkthrough for Students
+### 💻 GitHub Desktop Walkthrough for Students
 
 If you’re more comfortable with a graphical interface than the command line, follow these instructions to complete your student pentest walkthrough using **GitHub Desktop**.
 
@@ -84,7 +84,7 @@ walkthrough-YOURNAME.md
 
 > 💬 If you're stuck at any step, ask your instructor or teaching assistant for help!
 
-# 💻 Alternatively you can fork using the command line
+## 💻 Alternatively you can fork using the command line
 
 1. **Go to your instructor’s GitHub repository** (e.g., `https://github.com/instructor/linux-privesc-lab`)
 
