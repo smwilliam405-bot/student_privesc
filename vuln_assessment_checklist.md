@@ -102,7 +102,7 @@ Conducted with business reps or IT staff.
   - *Risk:* Policy gaps = no guidance, inconsistent enforcement
   - *Value Loss:* $25,000–$250,000 (HR, legal, incident mismanagement)
 
-... [Remaining section continues in this detailed format with risk, consequence, and value loss added]
+
 
 ---
 
