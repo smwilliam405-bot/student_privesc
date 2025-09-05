@@ -120,6 +120,13 @@ These tests rely entirely on publicly available data. **No scans or system inter
   ✅ NIST Mapping: ID.AM-3, PR.AC-4  
   *Risk:* Former employees retain access
 
+- **Is there a policy for data retention and secure disposal (paper + digital)?**  
+  🔹 Priority: MEDIUM  
+  ✅ NIST Mapping: PR.IP-6, MP-6  
+  *Risk:* Old data retained unnecessarily  
+  *Consequence:* Breach of outdated data, non-compliance  
+  *Potential Value Loss:* $50K–$500K
+
 ---
 
 ### 🌐 Zero Trust & Network Controls (NIST: PR.AC-5, SP 800-207)
@@ -138,6 +145,13 @@ These tests rely entirely on publicly available data. **No scans or system inter
   🔹 Priority: MEDIUM  
   ✅ NIST Mapping: PR.AC-11  
   *Risk:* Session hijacking
+
+- **Are there systems for anomaly detection (UEBA, EDR behavior alerts)?**  
+  🔹 Priority: MEDIUM  
+  ✅ NIST Mapping: DE.AE-1  
+  *Risk:* Stealthy attacker behavior goes unnoticed  
+  *Consequence:* Silent lateral movement or data exfil  
+  *Potential Value Loss:* $1M+ if breach undetected for long
 
 ---
 
@@ -214,6 +228,50 @@ These tests rely entirely on publicly available data. **No scans or system inter
   🔹 Priority: HIGH  
   ✅ NIST Mapping: RS.RP-1, RS.CO-1  
   *Risk:* Uncoordinated response to attack
+
+- **Has the incident response plan been tested with tabletop exercises?**  
+  🔹 Priority: HIGH  
+  ✅ NIST Mapping: RS.IM-1  
+  *Risk:* Real attack = panic or disorganized response  
+  *Consequence:* Delayed response amplifies damage  
+  *Potential Value Loss:* $100K–$3M+
+
+### 🚪 Physical Security & HR Integration (NIST: PE, PS)
+
+- **Are physical areas with sensitive data/systems access-controlled?**  
+  🔹 Priority: HIGH  
+  ✅ NIST Mapping: PE-3  
+  *Risk:* Walk-in compromise of server or paper records  
+  *Consequence:* Theft or tampering with assets  
+  *Potential Value Loss:* $100K–$2M+
+
+- **Are door badge logs retained and reviewed regularly?**  
+  🔹 Priority: MEDIUM  
+  ✅ NIST Mapping: PE-6  
+  *Risk:* Unnoticed unauthorized physical access  
+  *Consequence:* Lateral movement from rogue devices  
+  *Potential Value Loss:* $50K–$500K
+
+- **Is there an enforced visitor log and escort policy?**  
+  🔹 Priority: LOW  
+  ✅ NIST Mapping: PE-8  
+  *Risk:* Physical presence by unsanctioned individuals  
+  *Consequence:* Device compromise, photos of sensitive areas  
+  *Potential Value Loss:* $25K–$200K
+
+- **Does offboarding include badge/device return and HR sign-off?**  
+  🔹 Priority: HIGH  
+  ✅ NIST Mapping: PS-4  
+  *Risk:* Insider threat post-termination  
+  *Consequence:* Credential or physical access abuse  
+  *Potential Value Loss:* $100K–$1M+
+
+- **Are third-party providers assessed for security risk?**  
+  🔹 Priority: MEDIUM  
+  ✅ NIST Mapping: ID.SC-3  
+  *Risk:* Third-party compromise = your data breach  
+  *Consequence:* Propagation of malware, shared access paths  
+  *Potential Value Loss:* $250K–$10M+
 
 ---
 
